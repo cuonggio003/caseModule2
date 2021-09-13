@@ -13,8 +13,8 @@ include_once('db/connect.php');
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<!-- Title Tag  -->
 	<title>shop books</title>
-	<!-- Favicon -->
-	<link rel="icon" type="image/png" href="images/favicon.png">
+
+	
 	<!-- Web Font -->
 	<link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
 
@@ -87,7 +87,8 @@ include_once('db/connect.php');
 								<li><i class="ti-location-pin"></i>vị trí cửa hàng</li>
 								<li><i class="ti-alarm-clock"></i> <a href="#">Thỏa thuận hàng ngày</a></li>
 								<li><i class="ti-user"></i> <a href="#">tài khoản của tôi</a></li>
-								<li><i class="ti-power-off"></i><a href="login.html">đăng nhập</a></li>
+								
+								<li><a href="login.php">đăng nhập</a></li>
 							</ul>
 						</div>
 						<!-- End Top Right -->
