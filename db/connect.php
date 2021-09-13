@@ -1,0 +1,10 @@
+<?php
+    $con = mysqli_connect("localhost","root","12345678@","MVC");
+    
+    // Check connection
+    if ($mysqli -> connect_errno) {
+      echo "Failed to connect to MySQL: " . $mysqli -> connect_error;
+      exit();
+    }
+    
+?>
